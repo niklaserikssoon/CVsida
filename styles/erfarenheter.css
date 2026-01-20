@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333333;
+    margin-bottom: 3rem; 
+}
+
+/*-------------------------------------------------------- Header styles */
+header {
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: #326888;
+}
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  margin-bottom: 1.2rem;
+}
+/* -----------------------------------------------------  Navigation styles */
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/*-------------------------------------------------------- Erfarenheter styles */
+.erfarenheter {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.erfarenheter article {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.erfarenheter article h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.erfarenheter article .meta {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.erfarenheter article .summary {
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
+}
+
+.erfarenheter article h4 {
+  font-size: 1rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
+  color: #326888;
+}
+
+.erfarenheter article ul {
+  padding-left: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.erfarenheter article li {
+  margin-bottom: 0.4rem;
+  line-height: 1.5;
+}
+
+.bryt {
+  padding-left: 2rem;
+  border-bottom: 2px solid #326888;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: #326888;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  position: static;
+}

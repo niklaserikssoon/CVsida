@@ -1,0 +1,40 @@
+{
+    "utbildningar":[
+        {
+            "skola": "Chas Academy",
+            "program": "Fullstack .NET",
+            "inriktning": "Programmering/systemutveckling",
+            "start": "2025",
+            "slut": "2027",
+            "beskrivning": "Bygga robusta hemsidor både med backend och frontend",
+            "bild":"../images/program.jpg"
+        },
+        {
+            "skola": "Sportsclub Education",
+            "program": "Personlig Tränare",
+            "inriktning": "Träning och hälsa",
+            "start": "2018",
+            "slut": "2019",
+            "beskrivning":"Hjälpa folk nå sina mål med träning",
+            "bild":"../images/marklyft.jpg"
+        },
+        {
+            "skola": "västermalms gymnasium",
+            "program": "Anläggning",
+            "inriktning": "bygg och VA",
+            "start":"2014",
+            "slut": "2017",
+            "beskrivning": "Bygga vägar husgrunder samt vatten och avlopp",
+            "bild":"../images/mark.png"
+        },
+        {
+            "skola": "Code institute",
+            "program": "Fullstack webbutvecklare",
+            "inriktning": "Programmering/systemutveckling",
+            "start": "2024",
+            "slut":"2024",
+            "beskrivning":"bygga hemsidor med mer focus på frontend",
+            "bild":"../images/program.jpg"
+        }
+    ]
+}
